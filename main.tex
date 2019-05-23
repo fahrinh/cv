@@ -1,0 +1,160 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Fahri Nurul Hidayat} % Your first name
+% \familyname{LACHGAR} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{}{Jakarta, Indonesia 13790}
+\mobile{(+62) 853 1997 1945}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{fahri.cyber@gmail.com}
+\homepage{https://fahrinh.github.io}{https://fahrinh.github.io} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+\quote{A passionate software developer}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2014--2017}{University of Indonesia - Master's degree in Computer Science}{}{}{}{GPA: 3.65\\
+Master's Thesis: "Generating Software Product Line Family on Go Programming Language Based on Abstract Behavior Specification (ABS) Modelling Language"}  % Arguments not required can be left empty
+
+\cventry{2007--2011}{University of Indonesia - Bachelor's degree in Computer Science}{}{}{}{GPA: 3.32\\
+Undergraduate Thesis: "Development of Client-Server Matlab Application Based on RabbitMQ Messaging"}  % Arguments not required can be left empty
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{Feb--March 2011}{Internship}{Indonesia's National Government Internal Auditor or Badan Pengawasan Keuangan dan Pembangunan (BPKP)}{}{}
+{I \textit{developed} and \textit{made} a prototype of employee performance information system (web based application with desktop-like experience).\\
+\textsc{Tech Stack: \textbf{Java}, \textbf{Vaadin}, IBM DB2}}
+
+\cventry{March--September 2015}{Final Project Internship}{\textsc{CGG (EX CGG VERITAS)} Massy, France}{\small ENSTA Bretagne}{}{Developping a "Control and Command System" demonstrator (Hardware and Software) for Land and marine acquisition surveys with special reference to communication infrastructure in remotes areas and Data Centric Publish Subscribe (DCPS) middleware. 
+\textit{Matlab/C++/Java/MOOS-IvP environments}}
+
+\cventry{July--September 2014}{Assistant Engineer Internship}{\textsc{Lab-STICC} UMR CNRS 6285}{\small ENSTA Bretagne}{}{Empirical Mode Decomposition and Blind Source Separation Methods for Antijamming. 
+\textit{Matlab/C environment}}
+
+\cventry{October--June 2014}{Smart Wheelchair Control using EEG}{\small ENSTA Bretagne}{}{}{Developing a Low Cost EOG Signal Interface for a Smart Wheelchair with High Accuracy and Reliability. \textit{Matlab/Python environment}}
+
+\cventry{July--August 2013}{Industrial Placement}{Hypios SAS}{Paris}{}{Database and Customer Relationship Management.}
+
+\cventry{2012}{Supervised Personal Work}{}{Lyc\'{e}e Mohammed V}{}{Implementing a Best-Routing ADA Algorithm based on Paris Metro. \textit{ADA environment}}
+
+\section{Certificate}
+\cventry{June 2010}{Sun Certified Programmer For The Java Platform, Standard Edition 6 (SAI)}{}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Basic}{Elixir}
+\cvitem{Intermediate}{Go, PHP}
+\cvitem{Advanced}{Java}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+\begin{small}
+\cvitemwithcomment{Arabic}{Native Speaker}{}
+\cvitemwithcomment{French}{Near Native}{excellent command}
+\cvitemwithcomment{English}{Near Native}{excellent command}
+\cvitemwithcomment{Chinese}{Intermediate}{good working knowledge}
+\cvitemwithcomment{Japanese}{Intermediate}{good working knowledge}
+\end{small}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Trecking}{Robotics (NAO Junior Developer)}
+%\cvlistdoubleitem{Robotics}{}
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
