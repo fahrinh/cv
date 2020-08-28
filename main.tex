@@ -34,6 +34,8 @@
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
+\usepackage{hyperref}
+
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
@@ -80,8 +82,15 @@ Undergraduate Thesis: "Development of Client-Server Matlab Application Based on 
 
 \cventry{July 2019--Current}{Senior Software Engineer}{Tiket.Com - One of the best online travel booking website based in Indonesia}{}{}
 {
-In Research and Development (R\&D) team, we developed solutions to help all product teams to migrate to microservices. We developed: \textbf{Canary Router} and \textbf{Custom Matcher Traefik Plugin} 
+\begin{itemize}
+  \item Research and Development (R\&D) team:
+    \begin{itemize}
+      \item We developed solutions to help all product teams to migrate to microservices. We developed: \textbf{Canary Router} (\url{https://github.com/tiket-oss/canary-router}) and \textbf{Custom Matcher Traefik Plugin} 
 \\ \textsc{Tech Stack: \textbf{Go}}
+      \item We developed \textbf{HotStone} (\url{https://hotstone-seo.github.io/}) to help SEO team to manage HTML tag using data sourcing. Besides doing frontend, backend, and HotStone client stuff, I especially have worked on URL pattern matching as a part of core feature.
+      \\ \textsc{Tech Stack: \textbf{Go}, \textbf{React}, \textbf{MySQL}, \textbf{TimescaleDB}, \textbf{Redis}}
+    \end{itemize}
+\end{itemize}
 }
 
 \cventry{Nov 2018--March 2019}{Senior Backend and Blockchain Developer}{Biido.Id - Marketplace and Trading Platform for Crypto Assets}{}{}
@@ -131,25 +140,25 @@ My contributions as an author:
 \begin{itemize}
     \item Canary Router: HTTP Router for canary release with sidecar pattern
       \begin{itemize}
-        \item https://github.com/tiket-libre/canary-router
+        \item \url{https://github.com/tiket-oss/canary-router}
       \end{itemize}
     \item Enhanced Traefik to support custom matcher
       \begin{itemize}
-        \item https://github.com/tiket-libre/traefik/tree/goplugin-matcher
-        \item https://github.com/tiket-libre/traefik-plugin (custom matcher example)
+        \item \url{https://github.com/tiket-libre/traefik/tree/goplugin-matcher} (backup:\url{https://github.com/fahrinh/traefik/tree/goplugin-matcher})
+        \item \url{https://github.com/tiket-libre/traefik-plugin} (custom matcher example)
       \end{itemize}
     \item Odontogram: A Java library to generate odontogram
       \begin{itemize}
-        \item https://github.com/pusilkom/odontogram
+        \item \url{https://github.com/pusilkom/odontogram}
       \end{itemize}
     \item Azan : an Islamic prayer time application
       \begin{itemize}
-        \item Azan (Cinnamon Applet) : https://cinnamon-spices.linuxmint.com/applets/view/303
-        \item Azan (Gnome Shell Extension) : https://extensions.gnome.org/extension/1344/azan/
+        \item Azan (Cinnamon Applet) : \url{https://cinnamon-spices.linuxmint.com/applets/view/303}
+        \item Azan (Gnome Shell Extension) : \url{https://extensions.gnome.org/extension/1344/azan/}
       \end{itemize}
     \item This CV
       \begin{itemize}
-        \item https://github.com/fahrinh/cv
+        \item \url{https://github.com/fahrinh/cv}
       \end{itemize}
  \end{itemize}
 }
@@ -159,7 +168,7 @@ My contributions as a contributor:
 \begin{itemize}
     \item Abstract Behavior Specification (ABS) to Go Generator ( my master thesis' work )
     \begin{itemize}
-        \item https://github.com/fahrinh/abstools
+        \item \url{https://github.com/fahrinh/abstools}
     \end{itemize}
 \end{itemize}
 }
@@ -170,8 +179,9 @@ My contributions as a bug reporter:
 \begin{itemize}
     \item I found a line-ending bug on Pentaho Reporting and I proposed a fix
     \begin{itemize}
-        \item https://jira.pentaho.com/browse/PRD-4917
+        \item \url{https://jira.pentaho.com/browse/PRD-4917}
     \end{itemize}
+    \item Fix build error and enable ndbench-dyno-plugins for \textbf{Netflix Data Store Benchmark}: \url{https://github.com/Netflix/ndbench/pull/241}
 \end{itemize}
 }
 
@@ -180,8 +190,8 @@ My contributions as a bug reporter:
 {
 I am the creator and admin of the following Telegram groups:
 \begin{itemize}
-    \item Elixir ID -- https://t.me/elixir\_id
-    \item React Native Indonesia -- https://t.me/reactnative\_id
+    \item Elixir ID -- \url{https://t.me/elixir\_id}
+    \item React Native Indonesia -- \url{https://t.me/reactnative\_id}
 \end{itemize}
 }
 
@@ -228,17 +238,17 @@ I am the creator and admin of the following Telegram groups:
 %\cvlistdoubleitem{Robotics}{}
 
 \section{Blog}
-\cvitem{English}{https://fahrinh.github.io/}
-\cvitem{Bahasa}{https://fahrinh.github.io/id/}
+\cvitem{English}{\url{https://fahrinh.github.io/}}
+\cvitem{Bahasa}{\url{https://fahrinh.github.io/id/}}
 
 \section{Favourite Tech Sites}
 \cvitem{}{Sites that I visit daily to get to know latest (hyped) technology or current software development issues around the world}
 \cvitem{}
 {
 \begin{itemize}
-      \item https://news.ycombinator.com/
-      \item https://lobste.rs/
-      \item https://www.reddit.com/r/programming
+      \item \url{https://news.ycombinator.com/}
+      \item \url{https://lobste.rs/}
+      \item \url{https://www.reddit.com/r/programming}
  \end{itemize}
 }
 %----------------------------------------------------------------------------------------
